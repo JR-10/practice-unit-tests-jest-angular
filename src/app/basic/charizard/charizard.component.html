@@ -1,0 +1,12 @@
+<h1>Pokemon</h1>
+<!-- se muestra si charizard no existe -->
+<div *ngIf="!charizard; else elseBlock">
+  <h2>Loading...</h2>
+</div>
+
+
+<!-- ngtemplate para colocar un fragmento de codigo  -->
+<ng-template #elseBlock>
+  <h3>{{charizard?.name | titlecase}}</h3>
+  <img [src]="charizard?.sprites?.front_default" [alt]="charizard?.name">
+</ng-template>
