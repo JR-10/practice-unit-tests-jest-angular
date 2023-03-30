@@ -8,7 +8,7 @@ import { Pokemon } from '../interfaces'
 })
 export class PokemonService {
 
-  url: string = 'https://pokeapi.co/api/v2/pokemon/'; // url principal para el servicio
+  url: string = 'https://pokeapi.co/api/v2/pokemon'; // url principal para el servicio
 
   constructor(
     private http: HttpClient,// declarar la injeccion de la dependencia http para el servicio
@@ -20,7 +20,7 @@ export class PokemonService {
    * @param id parametro
    * @returns
    */
-  getPokemonService(id: number): Observable<Pokemon>{
-    return this.http.get<Pokemon>(`${this.url+id}`);
+  getPokemonService(idPokemon: number): Observable<Pokemon>{
+    return this.http.get<Pokemon>(`${this.url}/${idPokemon}`);
   }
 }
