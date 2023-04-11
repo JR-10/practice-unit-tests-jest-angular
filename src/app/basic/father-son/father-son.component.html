@@ -1,0 +1,10 @@
+<h5>Hijo</h5>
+
+<!-- para formatear codigo JSON -->
+<code>{{ client | json }}</code>
+
+<br><br>
+
+<button *ngIf="client" class="btn btn-outline-primary" (click)="onChangeId(5)">Cambiar ID</button>
+
+<button *ngIf="client" class="btn btn-outline-danger" (click)="onDelete()">Borrar CLiente</button>
