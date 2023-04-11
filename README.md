@@ -1,6 +1,7 @@
 # AngularTesting
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.7.
+Testing how to perform unit tests in Angular with Jest.
 
 ## Development server
 
@@ -16,7 +17,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 ## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Run `npm run test` to execute the unit tests via [Jest](https://jestjs.io/).
 
 ## Running end-to-end tests
 
