@@ -4,11 +4,16 @@ import { CounterComponent } from './basic/counter/counter.component';
 import { CharizardComponent } from './basic/charizard/charizard.component';
 import { FatherComponent } from './basic/father/father.component';
 import { FatherSonComponent } from './basic/father-son/father-son.component';
+import { CounteerRuoteComponent } from './basic/counteer-ruote/counteer-ruote.component';
 
 const routes: Routes = [
   {
     path: 'basic/counter',
     component: CounterComponent
+  },
+  {
+    path: 'basic/counter-route/:initial',
+    component: CounteerRuoteComponent
   },
   {
     path: 'basic/charizard',

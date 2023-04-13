@@ -4,6 +4,7 @@ import { CounterComponent } from './counter/counter.component';
 import { CharizardComponent } from './charizard/charizard.component';
 import { FatherComponent } from './father/father.component';
 import { FatherSonComponent } from './father-son/father-son.component';
+import { CounteerRuoteComponent } from './counteer-ruote/counteer-ruote.component';
 
 // Para los modulos no es necesario realiar test
 
@@ -12,7 +13,8 @@ import { FatherSonComponent } from './father-son/father-son.component';
     CounterComponent,
     CharizardComponent,
     FatherComponent,
-    FatherSonComponent
+    FatherSonComponent,
+    CounteerRuoteComponent
   ],
   imports: [
     CommonModule

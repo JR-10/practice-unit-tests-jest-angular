@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class CounterComponent implements OnInit {
 
   // declaracion de variables
-  counter: number = 10;
+  public counter: number = 10;
 
   constructor() { }
 
